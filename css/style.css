@@ -4,6 +4,12 @@ body {
   color: #040000;
 }
 
+.navbar-logo {
+  height: 75px; /* Adjust to make the logo smaller */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+}
+
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
