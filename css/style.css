@@ -4,6 +4,28 @@ body {
   color: #040000;
 }
 
+/* Custom styles for cards */
+.custom-card {
+  width: 100%;
+  max-width: 300px; /* Fixed width for the card */
+  border: 2px solid #ddd; /* Light gray border around card */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensures content stays within the card */
+  margin: auto; /* Centers card horizontally within column */
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* Fixed height for card to ensure uniformity */
+}
+
+.custom-img {
+  height: 100%; /* Ensure the image fills the card height */
+  width: 100%; /* Ensure the image fills the card width */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+
+
 .navbar-logo {
   height: 65px; /* Adjust to make the logo smaller */
   width: auto; /* Maintain aspect ratio */
